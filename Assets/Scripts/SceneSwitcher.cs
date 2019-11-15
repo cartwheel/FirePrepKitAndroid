@@ -10,4 +10,14 @@ public class SceneSwitcher : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene("SmokeDetectorTestScene");
     }
 
+    public void GoTo3dScanHome()
+    {
+
+    }
+
+    public void GoToReviewPlan()
+    {
+
+    }
+
 }
