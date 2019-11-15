@@ -12,12 +12,12 @@ public class SceneSwitcher : MonoBehaviour
 
     public void GoTo3dScanHome()
     {
-
+        Debug.Log("Going to 3d scan of home");
     }
 
     public void GoToReviewPlan()
     {
-
+        Debug.Log("Going to review of plan");
     }
 
 }

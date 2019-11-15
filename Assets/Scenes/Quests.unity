@@ -350,7 +350,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 707567590}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1330558150}
+        m_MethodName: GoTo3dScanHome
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &707567590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -689,6 +700,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f9c79f07062443fa74652aeb6ecf57, type: 3}
+--- !u!114 &1330558150 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6086214577378685767, guid: 59f9c79f07062443fa74652aeb6ecf57,
+    type: 3}
+  m_PrefabInstance: {fileID: 1330558149}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c62360d899f847db981883f1822a06b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1332840432
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,7 +1047,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2006282658}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1330558150}
+        m_MethodName: GoToReviewPlan
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &2006282658
 MonoBehaviour:
   m_ObjectHideFlags: 0
