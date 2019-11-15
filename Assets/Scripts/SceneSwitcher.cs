@@ -5,11 +5,6 @@ using UnityEngine;
 public class SceneSwitcher : MonoBehaviour
 {
 
-    public void GoToSmokeDetectorTestScene()
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("SmokeDetectorTestScene");
-    }
-
     public void GoTo3dScanHome()
     {
         Debug.Log("Going to 3d scan of home");
@@ -19,5 +14,19 @@ public class SceneSwitcher : MonoBehaviour
     {
         Debug.Log("Going to review of plan");
     }
+
+    public void GoToSmokeDetectorPlacement()
+    {
+        Debug.Log("Going to smoke detector placement");
+        //UnityEngine.SceneManagement.SceneManager.LoadScene("SmokeDetectorPlacement");
+    }
+
+
+    public void GoToSmokeDetectorTestScene()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("SmokeDetectorTestScene");
+    }
+
+    
 
 }
