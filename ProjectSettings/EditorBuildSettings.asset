@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/HelloAR.unity
+    guid: a525c85bd5c78404e96ccd4ae943a192
+  - enabled: 1
     path: Assets/Scenes/3DScanner.unity
     guid: e178ec3af315b43c5bb447b80ea282f8
   - enabled: 1
